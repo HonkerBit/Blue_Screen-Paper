@@ -1,0 +1,2 @@
+在config/config.json中设置无操作蓝屏时间，默认为600秒
+应将monitor.exe添加到开机自启动
