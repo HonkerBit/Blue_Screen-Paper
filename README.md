@@ -41,7 +41,7 @@ A BSOD paper for All Windows.
 
 ## 检测程序
 
-当Windows无操作时间超过/config/config.json中设置的时间时启动blue_screen蓝屏动画(默认10分钟)
+- ######当Windows无操作时间超过/config/config.json中设置的时间时启动blue_screen蓝屏动画(默认10分钟)
 
 ```config.json
 {  
@@ -55,7 +55,7 @@ A BSOD paper for All Windows.
 reset_timer()
 ```
 
-###### 当检测到操作时重置定时器：
+- ###### 当检测到操作时重置定时器：
 
 ```
 def reset_timer():  
@@ -66,7 +66,7 @@ def reset_timer():
     timer.start()  
 ```
 
-###### 当无操作时间超过预定时间:
+- ###### 当无操作时间超过预定时间:
 
 ```
 # 定时器回调函数  
@@ -78,7 +78,7 @@ def execute_exe():
         print("Xiaomi PC Service.exe 执行失败。")  
 ```
 
-###### 鼠标移动监测：
+- ###### 鼠标移动监测：
 
 ```
 def on_move(x, y):  
@@ -86,7 +86,7 @@ def on_move(x, y):
     reset_timer() 
 ```
 
-###### 鼠标点击监测：
+- ###### 鼠标点击监测：
 
 ```
 def on_click(x, y, button, pressed):  
@@ -95,7 +95,7 @@ def on_click(x, y, button, pressed):
         reset_timer()  
 ```
 
-###### 键盘按键监测：
+- ###### 键盘按键监测：
 
 ```
 def on_press(key):  
@@ -106,7 +106,7 @@ def on_press(key):
     reset_timer()  
 ```
 
-###### 项目里的monitor.py留有输出，运行后会输出监测到的鼠标和键盘状态
+- ###### 项目里的monitor.py留有输出，运行后会输出监测到的鼠标和键盘状态
 
 鼠标移动：
 
