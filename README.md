@@ -105,11 +105,17 @@ def on_press(key):
         print('Special key pressed:', key)  
     reset_timer()  
 ```
+## 项目里的monitor.py留有输出，运行后会输出监测到的鼠标和键盘状态
 
-- ###### 项目里的monitor.py留有输出，运行后会输出监测到的鼠标和键盘状态
+- ###### 鼠标移动：
 
-鼠标移动：
+![image](https://github.com/user-attachments/assets/1d4904ce-c3bd-48be-bcf4-62c4ded66b4c)
 
-鼠标点击：
+- ###### 鼠标点击：
 
-键盘敲击：
+![image](https://github.com/user-attachments/assets/fd328988-26e0-4601-9c87-64640ec80cc2)
+
+- ###### 键盘敲击：
+
+![image](https://github.com/user-attachments/assets/68d6e36b-44fe-44d2-a288-17d44215b459)
+
