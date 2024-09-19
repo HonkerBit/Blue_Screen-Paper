@@ -1,5 +1,3 @@
-<div align="center">
-
 <h1 align="center">blue_screen-paper</h1>
 
 English / [简体中文](./README_CN.md)
@@ -23,7 +21,91 @@ A BSOD paper for All Windows.
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
 ## 如何使用
+
 将mointor.exe加入开机自启
+在config/config.json中设置误操作息屏时间(默认10分钟)
 
-在config/config.json中设置误操作息屏时间(默认
+## 蓝屏动画
 
+在/bin文件夹内的Xiaomi PC sService.py为蓝屏动画(至于为什么叫这个名字---嗯---伪装成电脑驱动文件更容易骗同学去运行他😂😁)
+
+双击执行会立即启动蓝屏动画
+
+对于不同系统版本启动不同的蓝屏动画
+
+<Alt>+<F4>关闭动画
+
+## 检测程序
+
+当Windows无操作时间超过/config/config.json中设置的时间时启动blue_screen蓝屏动画(默认10分钟)
+
+```config.json
+{  
+    "sleep_time": 600
+}
+```
+
+###### 使用定时器：
+
+```
+reset_timer()
+```
+
+###### 当检测到操作时重置定时器：
+
+```
+def reset_timer():  
+    global timer  
+    if timer is not None and timer.is_alive():  
+        timer.cancel()  
+    timer = threading.Timer(sleep_time, execute_exe)  
+    timer.start()  
+```
+
+###### 当无操作时间超过预定时间:
+
+```
+# 定时器回调函数  
+def execute_exe():  
+    try:  
+        subprocess.run([exe_path], check=True)  
+        print("Xiaomi PC Service.exe 执行成功。")  
+    except subprocess.CalledProcessError:  
+        print("Xiaomi PC Service.exe 执行失败。")  
+```
+
+###### 鼠标移动监测：
+
+```
+def on_move(x, y):  
+    print('Mouse moved to:', (x, y))  
+    reset_timer() 
+```
+
+###### 鼠标点击监测：
+
+```
+def on_click(x, y, button, pressed):  
+    if pressed:  
+        print('Mouse clicked:', button, 'at', (x, y))  
+        reset_timer()  
+```
+
+###### 键盘按键监测：
+
+```
+def on_press(key):  
+    try:  
+        print('Key pressed:', key.char)  
+    except AttributeError:  
+        print('Special key pressed:', key)  
+    reset_timer()  
+```
+
+###### 项目里的monitor.py留有输出，运行后会输出监测到的鼠标和键盘状态
+
+鼠标移动：
+
+鼠标点击：
+
+键盘敲击：
