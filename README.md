@@ -14,6 +14,7 @@ A BSOD paper for All Windows.
 [![Windows][Windows-image]][download-url]
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
 ![Python][Python-image]
 ![github][github-image]
 
