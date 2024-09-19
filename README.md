@@ -12,7 +12,7 @@ A BSOD paper for All Windows.
 
 [![Windows][Windows-image]][download-url]
 
-[![Python][Python-image]]
+[![Python][Python-image]
 
 [download-url]: https://github.com/Yidadaa/ChatGPT-Next-Web/releases
 
