@@ -35,17 +35,54 @@ A BSOD paper for All Windows.
 
 - 双击执行会立即启动蓝屏动画
 
+- 图片使用硬编码不依赖外部图片
+
 - 对于不同系统版本启动不同的蓝屏动画
 
 - <kbd>Alt</kbd> + <kbd>F4</kbd>关闭动画
 
+- ###### 使动画全屏播放：
+
+```
+self.root.attributes("-fullscreen", True)   #全屏
+self.root.wm_attributes('-topmost',1)   #窗口置顶
+self.root.overrideredirect(True)    #去边框，任务栏不显示
+```
+
+- ###### 判断是否为中文版：
+
+```
+def using_chinese_flag(self):
+    loc_lang = locale.getdefaultlocale()
+    if "zh_CN"in loc_lang:
+        return True
+    else:
+        return False
+```
+
+- ###### 获取Windows版本：
+
+```
+def get_platform(self):
+    """
+    获取window版本
+    :return:
+    """
+    platform = plat()
+    if "Windows" in platform:
+        windows_version = platform.split('-')[1]
+        return int(windows_version)
+    else:
+        return None
+```
+
 ## 检测程序
 
-- ###### 当Windows无操作时间超过/config/config.json中设置的时间时启动blue_screen蓝屏动画(默认10分钟)
-
-```config.json
+- 当Windows无操作时间超过/config/config.json中设置的时间时启动blue_screen蓝屏动画(默认10分钟)
+- ###### 设置config.json：
+```
 {  
-    "sleep_time": 600
+    "sleep_time": 600 #默认600秒
 }
 ```
 
@@ -105,7 +142,7 @@ def on_press(key):
         print('Special key pressed:', key)  
     reset_timer()  
 ```
-## 项目里的monitor.py留有输出，运行后会输出监测到的鼠标和键盘状态
+- 项目里的monitor.py留有输出，运行后会输出监测到的鼠标和键盘状态
 
 - ###### 鼠标移动：
 
