@@ -1,5 +1,5 @@
 <div align="center">
-<h1 align="center">Blue_screen-Paper</h1>
+<h1 align="center">Blue_Screen-paper</h1>
 
 English / [简体中文](./README_CN.md)
 
