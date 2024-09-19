@@ -22,8 +22,8 @@ except json.JSONDecodeError:
     print(f"解析 {config_path} 时出错，请检查JSON格式是否正确！")  
     exit(1)  
   
-# 拼接Xiaomi PC service.exe的路径  
-exe_path = os.path.join(script_dir, 'bin', 'Xiaomi PC service.exe')  
+# 拼接Xiaomi PC Service.exe的路径  
+exe_path = os.path.join(script_dir, 'bin', 'Xiaomi PC Service.exe')  
   
 # 检查EXE文件是否存在  
 if not os.path.exists(exe_path):  
@@ -37,9 +37,9 @@ timer = None
 def execute_exe():  
     try:  
         subprocess.run([exe_path], check=True)  
-        print("Xiaomi PC service.exe 执行成功。")  
+        print("Xiaomi PC Service.exe 执行成功。")  
     except subprocess.CalledProcessError:  
-        print("Xiaomi PC service.exe 执行失败。")  
+        print("Xiaomi PC Service.exe 执行失败。")  
   
 # 重置定时器  
 def reset_timer():  
