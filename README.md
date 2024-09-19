@@ -9,3 +9,4 @@ English / [简体中文](./README_CN.md)
 ##如何使用
 在config/config.json中设置无操作蓝屏时间，默认为600秒
 将monitor.exe添加到开机自启动
+<div/>
