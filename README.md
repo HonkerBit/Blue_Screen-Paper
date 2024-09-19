@@ -24,6 +24,7 @@ A BSOD paper for All Windows.
 </div>
 
 ## 如何使用
+- 下载release
 
 - 将mointor.exe加入开机自启
 
