@@ -12,7 +12,7 @@ A BSOD paper for All Windows.
 ![Python][Python-image]
 ![github][github-image]
 
-[github-image]: https://img.shields.io/badge/honkerbit-github-8A2BE2?logoColor=purple
+[github-image]: https://img.shields.io/badge/HonkerBit-github-8A2BE2?logoColor=purple
 [download-url]: https://github.com/Yidadaa/ChatGPT-Next-Web/releases
 [Windows-image]: https://img.shields.io/badge/-Windows-blue?logo=windows
 [Python-image]: https://img.shields.io/badge/Python-100%25-brightgreen
