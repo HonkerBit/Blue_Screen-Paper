@@ -24,7 +24,7 @@ A BSOD paper for All Windows.
 </div>
 
 ## 如何使用
-- 下载 *[release](https://objects.githubusercontent.com/github-production-release-asset-2e65be/859058662/bedfcb4c-f5d5-44ad-a893-2e3bea3c5934?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240919%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240919T072832Z&X-Amz-Expires=300&X-Amz-Signature=f00c4b4a5f3431c30273eb909f5892ebdb1e22d2b75806bc94fdb97e0af77736&X-Amz-SignedHeaders=host&actor_id=146426985&key_id=0&repo_id=859058662&response-content-disposition=attachment%3B%20filename%3DBlue_ScreenPaper.zip&response-content-type=application%2Foctet-stream)*
+- 下载 *[release]([https://objects.githubusercontent.com/github-production-release-asset-2e65be/859058662/bedfcb4c-f5d5-44ad-a893-2e3bea3c5934?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240919%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240919T072832Z&X-Amz-Expires=300&X-Amz-Signature=f00c4b4a5f3431c30273eb909f5892ebdb1e22d2b75806bc94fdb97e0af77736&X-Amz-SignedHeaders=host&actor_id=146426985&key_id=0&repo_id=859058662&response-content-disposition=attachment%3B%20filename%3DBlue_ScreenPaper.zip&response-content-type=application%2Foctet-stream](https://codeload.github.com/HonkerBit/Blue_Screen-Paper/zip/refs/tags/release))*
 
 
 
