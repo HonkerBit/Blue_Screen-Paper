@@ -24,7 +24,7 @@ A BSOD paper for All Windows.
 </div>
 
 ## 如何使用
-- 下载release
+- 下载 *[release](https://codeload.github.com/HonkerBit/Blue_Screen-Paper/zip/refs/tags/release)*
 
 - 将mointor.exe加入开机自启
 
