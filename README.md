@@ -11,8 +11,10 @@ A BSOD paper for All Windows.
 
 
 [![Windows][Windows-image]][download-url]
-
+![Copyright][Copyright-image]
 ![Python][Python-image]
+
+[Copyright-image]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 
 [download-url]: https://github.com/Yidadaa/ChatGPT-Next-Web/releases
 
