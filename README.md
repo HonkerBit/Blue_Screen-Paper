@@ -37,7 +37,7 @@ A BSOD paper for All Windows.
 
 - 对于不同系统版本启动不同的蓝屏动画
 
-- <alt>+<f4>关闭动画
+- <kbd>Alt</kbd> + <kbd>F4</kbd>关闭动画
 
 ## 检测程序
 
