@@ -37,11 +37,11 @@ A BSOD paper for All Windows.
 
 - 对于不同系统版本启动不同的蓝屏动画
 
-- <Alt>+<F4>关闭动画
+- <alt>+<f4>关闭动画
 
 ## 检测程序
 
-- ######当Windows无操作时间超过/config/config.json中设置的时间时启动blue_screen蓝屏动画(默认10分钟)
+- ###### 当Windows无操作时间超过/config/config.json中设置的时间时启动blue_screen蓝屏动画(默认10分钟)
 
 ```config.json
 {  
