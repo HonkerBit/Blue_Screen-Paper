@@ -1,5 +1,3 @@
-
-
 <div align="center">
 
 <h1 align="center">blue_screen-paper</h1>
@@ -7,9 +5,7 @@
 English / [简体中文](./README_CN.md)
 
 A BSOD paper for All Windows.
-
 一个适配多版本Windows系统的蓝屏动画壁纸。
-
 
 [![Windows][Windows-image]][download-url]
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
@@ -17,16 +13,17 @@ A BSOD paper for All Windows.
 ![github][github-image]
 
 [github-image]: https://img.shields.io/badge/honkerbit-github-8A2BE2?logoColor=purple
-
 [download-url]: https://github.com/Yidadaa/ChatGPT-Next-Web/releases
-
 [Windows-image]: https://img.shields.io/badge/-Windows-blue?logo=windows
-
 [Python-image]: https://img.shields.io/badge/Python-100%25-brightgreen
-
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
-
 
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+
+## 如何使用
+将mointor.exe加入开机自启
+
+在config/config.json中设置误操作息屏时间(默认
+
