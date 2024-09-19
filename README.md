@@ -5,7 +5,7 @@ English / [简体中文](./README_CN.md)
 
 A BSOD paper for All Windows.
 
-一个适配多版本Windows系统的蓝屏动画壁纸。
+一个适配多版本Windows系统的仿蓝屏动画壁纸。
 
 [![Windows][Windows-image]][download-url]
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
