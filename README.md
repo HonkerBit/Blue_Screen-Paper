@@ -25,18 +25,19 @@ A BSOD paper for All Windows.
 
 ## 如何使用
 
-将mointor.exe加入开机自启
-在config/config.json中设置误操作息屏时间(默认10分钟)
+- 将mointor.exe加入开机自启
+
+- 在config/config.json中设置误操作息屏时间(默认10分钟)
 
 ## 蓝屏动画
 
-在/bin文件夹内的Xiaomi PC sService.py为蓝屏动画(至于为什么叫这个名字---嗯---伪装成电脑驱动文件更容易骗同学去运行他😂😁)
+- 在/bin文件夹内的Xiaomi PC sService.py为蓝屏动画(至于为什么叫这个名字---嗯---伪装成电脑驱动文件更容易骗同学去运行他😂😁)
 
-双击执行会立即启动蓝屏动画
+- 双击执行会立即启动蓝屏动画
 
-对于不同系统版本启动不同的蓝屏动画
+- 对于不同系统版本启动不同的蓝屏动画
 
-<Alt>+<F4>关闭动画
+- <Alt>+<F4>关闭动画
 
 ## 检测程序
 
@@ -48,7 +49,7 @@ A BSOD paper for All Windows.
 }
 ```
 
-###### 使用定时器：
+- ###### 使用定时器：
 
 ```
 reset_timer()
